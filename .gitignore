@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 #afFiles
 *.afphoto*
+
+#settings
+settings.json
