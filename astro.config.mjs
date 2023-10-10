@@ -7,4 +7,5 @@ export default defineConfig({
   site: 'https://kuhjuice.github.io',
   base: '/AstroPortfolioWebsite',
   integrations: [tailwind()]
+  
 });
