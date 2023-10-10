@@ -1,0 +1,68 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Programing</h2>
+		<p>Strong affinity for everything with code. Check out my GitHub to see some code.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient/>
+		<h2>Biotech</h2>
+		<p>Believing in a future of great biotech advances. Almost a M.Sc. in biotechnology.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Thriving in the Fast Lane</h2>
+		<p>Driven by fast-paced environments, innovative industries, and complex tasks.</p>
+	</div>
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+		align-content: center;
+	}
+	.box div {
+		align-items: center;
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+		align-content: center;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+		text-align: center;	}
+
+	.skills p {
+		color: var(--gray-400);
+		text-align: center;
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-xl);
+		}
+	}
+</style>
