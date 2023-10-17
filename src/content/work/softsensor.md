@@ -10,7 +10,7 @@ tags:
   - Biotech
   - Data Science
 ---
-## Eine Einführung in Softsensoren
+## Eine Einführung in Soft-sensoren
 Ein Softsensor ist ein Software basierter Sensor. Er nutzt vorgegebene oder gemessene Eingänge und Ausgänge um, mithilfe der Zustandsgleichungen eines beliebigen Systems, die nicht messbaren Zustände zu schätzen und ggf. darzustellen (Knorn, 2021). Viele Zustände lassen sich nicht direkt oder nur schwer messen, daher ist die Verwendung von Softsensoren mit schnell verfügbaren Online-Daten sinnvoll. Die Beobachtung und Optimierung von Prozessen ist für die Forschung und Industrie wichtig. Ein Softsensor besteht grundsätzlich aus einem Modell und einer Korrektur. Das Modell sollte den Prozess vereinfacht abbilden und die Korrektur vergleicht dann die gemessenen Daten des realen Prozesses mit den vorhersagen des Modells. Somit können Softsensoren in Echtzeit schwer zu messende Größen ermitteln die Voraussagen für optimale Prozesseinflussnahme zulassen.
 
 ## Modell
@@ -27,7 +27,7 @@ sich diese aus der Literatur erhalten, diese sind aber häufig nur Richtwerte. M
 mithilfe von Messdaten, erhalten. Wurden die Parameter eines Prozessen erhalten
 können sie mit einer geeigneten Zielsetzung optimiert werden.
 
-### Parameteridentifikation
+### Parameter-Identifikation
 Die Parameteridentifikation nutzt eine Zielfunktion um dem Fit der Modellparameter an die Messdaten zu maximieren, bzw. ein Minimum der Funktion zu finden.
 Für nicht-lineare Systeme gibt es eine nicht-lineare Lösungsmethoden. Da biologische Systeme sehr häufig komplex sind und mit Komplexität häufig nicht-Linearität
 einhergeht, kommen dort nicht-lineare-Optimierungsalgorithmen, wie beispielsweise
